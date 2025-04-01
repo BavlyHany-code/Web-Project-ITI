@@ -1,0 +1,815 @@
+body {
+ display: flex;
+ flex-wrap: wrap;
+ background-color: #f8f9fa;
+ height: 80vh;
+ margin: 0;
+ padding: 0;
+}
+#page1 {
+ background-image: url(images/hero-bg.jpg);
+ width: 100%;
+ min-height: 100vh;
+ position: relative;
+ padding: 80px 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#p1 {
+ display: flex;
+ flex-wrap: wrap;
+ color: white;
+ font-size: 70px;
+ font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ position: absolute;
+ top: 350px;
+ left: 230px;
+}
+
+#p2 {
+ display: flex;
+ flex-wrap: wrap;
+ color: rgb(255, 255, 255);
+ font-size: 30px;
+ position: absolute;
+ top: 440px;
+ left: 255px;
+}
+
+#email {
+ display: flex;
+ flex-wrap: wrap;
+ width: 500px;
+ height: 60px;
+ position: absolute;
+ top: 500px;
+ left: 290px;
+}
+#button {
+ display: flex;
+ flex-wrap: wrap;
+ position: absolute;
+ top: 510px;
+ left: 690px;
+}
+ol {
+ width: 100%;
+ list-style-type: none;
+ position: fixed;
+ top: 0px;
+
+ padding: 20px;
+
+ text-align: center;
+ border: 1px solid white;
+ background-color: white;
+}
+
+ol li {
+ display: inline-block;
+}
+
+ol li a {
+ margin-left: 10px;
+
+ text-decoration: none;
+ color: black;
+ font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+ font-size: larger;
+ padding: 30px;
+}
+
+ol li a:hover {
+ text-decoration: none;
+
+ color: rgb(111, 143, 145);
+}
+#but {
+ position: fixed;
+ top: 20px;
+ right: 10px;
+ width: 120px;
+}
+#down {
+ position: relative;
+ top: -400px;
+}
+
+.all {
+ display: inline-block;
+ width: 200px;
+ border: 5px black;
+ position: relative;
+ left: 360px;
+ top: 50px;
+}
+img {
+ width: 150px;
+ height: 80px;
+ padding-left: 40px;
+}
+#about {
+ background-color: #f8f9fa;
+ width: 100%;
+ height: 850px;
+ position: relative;
+ top: 50px;
+}
+
+#p3 {
+ position: relative;
+ top: 300px;
+ left: 300px;
+ width: 500px;
+ font-size: 40px;
+ font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#p4 {
+ position: relative;
+ top: 300px;
+ left: 300px;
+ width: 540px;
+ font-size: 20px;
+}
+#butn {
+ border-color: chocolate;
+ position: relative;
+ top: -320px;
+}
+#card1 {
+ position: relative;
+ top: -450px;
+ left: 700px;
+}
+#card2 {
+ position: relative;
+ top: -450px;
+ left: 1350px;
+}
+#card3 {
+ position: relative;
+ top: -380px;
+ left: 1350px;
+}
+#card4 {
+ position: relative;
+ top: -490px;
+ left: 1000px;
+}
+#card4:hover,
+#card3:hover,
+#card2:hover,
+#card1:hover {
+ background-color: rgb(224, 231, 231);
+ padding: 2px;
+}
+
+.state {
+ background-image: url(images/stats-bg.jpg);
+ background-repeat: no-repeat;
+ width: 100%;
+ min-height: 100vh;
+ position: relative;
+ padding: 80px 0;
+ display: flex;
+ flex-wrap: wrap;
+}
+#p11 {
+ color: rgb(191, 199, 205);
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ position: relative;
+ top: 180px;
+ left: 458px;
+}
+#p12 {
+ color: rgb(191, 199, 205);
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ position: relative;
+ top: 180px;
+ left: 680px;
+}
+#p13 {
+ color: rgb(191, 199, 205);
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ position: relative;
+ top: 180px;
+ left: 905px;
+}
+#p14 {
+ color: rgb(191, 199, 205);
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ position: relative;
+ top: 180px;
+ left: 1105px;
+}
+#p15 {
+ font-size: 50px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ color: aliceblue;
+ position: relative;
+ top: 110px;
+ left: 150px;
+}
+#p16 {
+ font-size: 50px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ color: aliceblue;
+ position: relative;
+ top: 110px;
+ left: 340px;
+}
+#p17 {
+ font-size: 50px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ color: aliceblue;
+ position: relative;
+ top: 110px;
+ left: 550px;
+}
+#p18 {
+ font-size: 50px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ color: aliceblue;
+ position: relative;
+ top: 110px;
+ left: 750px;
+}
+
+#ser {
+ font-size: 40px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ color: black;
+ position: relative;
+ top: -400px;
+ left: 850px;
+}
+#ser1 {
+ font-size: 20px;
+
+ position: relative;
+ top: -540px;
+ left: 580px;
+}
+#li1 {
+ font-size: 35px;
+ color: red;
+ position: relative;
+ top: -485px;
+ left: 750px;
+}
+#li2 {
+ font-size: 35px;
+ color: red;
+ position: relative;
+ top: -555px;
+ left: 1010px;
+}
+.lis1 {
+ color: red;
+ font-size: 35px;
+ position: relative;
+ top: -505px;
+ left: 350px;
+}
+.lis2 {
+ color: red;
+ font-size: 35px;
+ position: relative;
+ top: -570px;
+ left: 950px;
+}
+.lis3 {
+ color: red;
+ font-size: 35px;
+ position: relative;
+ top: -460px;
+ left: 350px;
+}
+.lis4 {
+ color: red;
+ font-size: 35px;
+ position: relative;
+ top: -540px;
+ left: 950px;
+}
+.lis5 {
+ color: red;
+ font-size: 35px;
+ position: relative;
+ top: -410px;
+ left: 350px;
+}
+.lis6 {
+ color: red;
+ font-size: 35px;
+ position: relative;
+ top: -475px;
+ left: 950px;
+}
+
+.lin1 {
+ color: gainsboro;
+ font-size: 35px;
+ position: relative;
+ top: -915px;
+ left: 410px;
+}
+.lin2 {
+ color: gainsboro;
+ font-size: 35px;
+ position: relative;
+ top: -980px;
+ left: 1000px;
+}
+.lin3 {
+ color: gainsboro;
+ font-size: 35px;
+ position: relative;
+ top: -870px;
+ left: 410px;
+}
+.lin4 {
+ color: gainsboro;
+ font-size: 35px;
+ position: relative;
+ top: -950px;
+ left: 1000px;
+}
+.lin5 {
+ color: gainsboro;
+ font-size: 35px;
+ position: relative;
+ top: -820px;
+ left: 410px;
+}
+.lin6 {
+ color: gainsboro;
+ font-size: 35px;
+ position: relative;
+ top: -885px;
+ left: 1000px;
+}
+
+.img1 {
+ position: relative;
+ top: -1250px;
+ left: 300px;
+ width: 400px;
+}
+#txt {
+ position: relative;
+ left: 170px;
+ top: -30px;
+}
+#txtt {
+ position: relative;
+ top: -185px;
+ left: 170px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ font-size: 30px;
+}
+
+.img3 {
+ position: relative;
+ top: -1250px;
+ left: 300px;
+ width: 400px;
+}
+#tit {
+ position: relative;
+ left: 170px;
+ top: -40px;
+}
+#titt {
+ position: relative;
+ top: -185px;
+ left: 170px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ font-size: 30px;
+}
+
+.img5 {
+ position: relative;
+ top: -1250px;
+ left: 300px;
+ width: 400px;
+}
+#bav {
+ position: relative;
+ left: 170px;
+ top: -40px;
+}
+#bavl {
+ position: relative;
+ top: -185px;
+ left: 170px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ font-size: 30px;
+}
+
+.img2 {
+ position: relative;
+ top: -1870px;
+ left: 890px;
+ width: 400px;
+}
+#mo {
+ position: relative;
+ left: 170px;
+ top: -40px;
+}
+#moo {
+ position: relative;
+ top: -185px;
+ left: 170px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ font-size: 30px;
+}
+
+.img4 {
+ position: relative;
+ top: -1870px;
+ left: 890px;
+ width: 400px;
+}
+#ro {
+ position: relative;
+ left: 170px;
+ top: -40px;
+}
+#roo {
+ position: relative;
+ top: -185px;
+ left: 170px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ font-size: 30px;
+}
+.img6 {
+ position: relative;
+ top: -1870px;
+ left: 890px;
+ width: 400px;
+}
+#me {
+ position: relative;
+ left: 170px;
+ top: -40px;
+}
+#mee {
+ position: relative;
+ top: -185px;
+ left: 170px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ font-size: 30px;
+}
+#txtt:hover,
+#titt:hover,
+#bavl:hover,
+#moo:hover,
+#roo:hover,
+#mee:hover {
+ color: rgb(203, 65, 65);
+}
+
+#por {
+ font-size: 40px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ color: black;
+
+ position: relative;
+ top: 500px;
+ left: 150px;
+}
+#u1 {
+ font-size: 35px;
+ color: red;
+ position: relative;
+ top: 410px;
+ left: 310px;
+}
+#u2 {
+ font-size: 35px;
+ color: red;
+ position: relative;
+ top: 342px;
+ left: 40px;
+}
+
+#port {
+ font-size: 20px;
+ position: relative;
+ top: 375px;
+ left: -120px;
+}
+
+.g {
+ position: relative;
+ top: 700px;
+ right: 1200px;
+ /* padding: 5px; */
+}
+#g {
+ width: 450px;
+ height: 400px;
+}
+#ga {
+ position: relative;
+ top: 20px;
+ width: 450px;
+ height: 600px;
+}
+
+.gal {
+ position: relative;
+ top: -300px;
+ right: 750px;
+ /* padding: 20px; */
+}
+#gal {
+ width: 450px;
+ height: 300px;
+}
+#gall {
+ position: relative;
+ top: 30px;
+ width: 450px;
+ height: 600px;
+}
+#galle {
+ position: relative;
+ top: 50px;
+ width: 450px;
+ height: 300px;
+}
+
+.galler {
+ position: relative;
+ top: -1500px;
+ right: 300px;
+ /* padding: 20px; */
+}
+
+#galler {
+ width: 450px;
+ height: 280px;
+}
+#gallery {
+ position: relative;
+ top: 20px;
+ width: 450px;
+ height: 280px;
+}
+#galleryy {
+ position: relative;
+ top: 40px;
+ width: 450px;
+ height: 280px;
+}
+#galleryyy {
+ position: relative;
+ top: 60px;
+ width: 450px;
+ height: 280px;
+}
+
+#team {
+ font-size: 40px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ color: black;
+
+ position: relative;
+ top: 500px;
+ left: 155px;
+}
+#t1 {
+ font-size: 35px;
+ color: red;
+ position: relative;
+ top: 410px;
+ left: 290px;
+}
+#t2 {
+ font-size: 35px;
+ color: red;
+ position: relative;
+ top: 342px;
+ left: 30px;
+}
+#t3 {
+ font-size: 20px;
+ position: relative;
+ top: 375px;
+ left: -150px;
+}
+#Team {
+ position: relative;
+ top: -1700px;
+ left: 750px;
+}
+
+.imgtteam {
+ width: 260px;
+ height: 210px;
+ margin: 130px;
+ position: relative;
+ left: 150px;
+ top: -1300px;
+}
+
+.teamname {
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ font-size: 20px;
+ margin: 200px;
+ display: inline-block;
+ position: relative;
+ left: 180px;
+ top: -2080px;
+}
+.teamnamee {
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ font-size: 20px;
+ margin: 200px;
+ display: inline-block;
+ position: relative;
+ left: 170px;
+ top: -2040px;
+}
+.teampo {
+ font-family: "Times New Roman", Times, serif;
+ /* font-size: 20px; */
+ /* margin: 220px;   */
+ display: inline-block;
+ position: relative;
+ left: 110px;
+ top: -2900px;
+}
+#v1 {
+ position: relative;
+ left: 360px;
+ top: -2700px;
+}
+#v2 {
+ position: relative;
+ left: 735px;
+ top: -2700px;
+}
+#v3 {
+ position: relative;
+ left: 1180px;
+ top: -2700px;
+}
+#v4 {
+ position: relative;
+ left: 390px;
+ top: -2250px;
+}
+#v5 {
+ position: relative;
+ left: 920px;
+ top: -2270px;
+}
+#v6 {
+ position: relative;
+ left: 1430px;
+ top: -2295px;
+}
+
+.teamt {
+ width: 500px;
+ margin: 30px;
+ display: inline-block;
+ position: relative;
+ left: 170px;
+ top: -2790px;
+}
+.teamtt {
+ width: 500px;
+ margin: 20px;
+ display: inline-block;
+ position: relative;
+ left: 170px;
+ top: -2420px;
+}
+
+#eam {
+ font-size: 40px;
+ font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ color: black;
+
+ position: relative;
+ top: 1060px;
+ left: 155px;
+}
+#q1 {
+ font-size: 35px;
+ color: red;
+ position: relative;
+ top: 970px;
+ left: 330px;
+}
+#q2 {
+ font-size: 35px;
+ color: red;
+ position: relative;
+ top: 900px;
+ left: 30px;
+}
+#q3 {
+ font-size: 20px;
+ position: relative;
+ top: 950px;
+ left: -140px;
+}
+#contact {
+ position: relative;
+ top: -2800px;
+ left: 750px;
+}
+
+.contact {
+ width: 400px;
+ position: relative;
+ top: -2100px;
+ left: -500px;
+}
+.add {
+ text-align: center;
+
+ width: 300px;
+ height: 200px;
+ position: relative;
+top: 600px;
+ background-color: rgb(244, 242, 241);
+}
+.call {
+ text-align: center;
+ position: relative;
+ /* left: 330px; */
+ top: 660px;
+ width: 300px;
+ height: 200px;
+ position: relative;
+
+ background-color: rgb(244, 242, 241);
+}
+.open {
+ text-align: center;
+
+ width: 300px;
+ height: 200px;
+ position: relative;
+
+ background-color: rgb(244, 242, 241);
+ position: relative;
+ left: 330px;
+ top: 380px;
+}
+.email {
+ position: relative;
+ left: 330px;
+ top: 310px;
+ text-align: center;
+
+ width: 300px;
+ height: 200px;
+ position: relative;
+
+ background-color: rgb(244, 242, 241);
+}
+.email:hover,
+.open:hover,
+.call:hover,
+.add:hover {
+ background-color: rgb(232, 228, 228);
+ /* padding: 1px; */
+}
+.rowg-3 {
+ position: relative;
+ top: -1485px;
+ left: -200px;
+ height: 580px;
+ width: 700px;
+ background-color: rgb(244, 242, 241);
+}
+
+.foote {
+  position: relative;
+ top: -1800px; 
+ width: 2000px;
+ background-color: rgb(244, 242, 241);
+}
+#ss{
+
+  /* background-image: url(images/Screenshot\ 2024-08-21\ 111710.png); */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  bottom: 3100px;
+  right: 20px;
+  /* padding: 80px 0; */
+  display: flex;
+  flex-wrap: wrap;
+}
